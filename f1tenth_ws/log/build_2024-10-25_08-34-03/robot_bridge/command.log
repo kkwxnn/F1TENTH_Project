@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/f1tenth_ws/build/robot_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/robot_bridge -- -j4 -l4
+Invoked command in '/home/ubuntu/f1tenth_ws/build/robot_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/robot_bridge -- -j4 -l4
+Invoking command in '/home/ubuntu/f1tenth_ws/build/robot_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/robot_bridge
+Invoked command in '/home/ubuntu/f1tenth_ws/build/robot_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/robot_bridge

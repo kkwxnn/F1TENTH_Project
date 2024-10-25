@@ -1,0 +1,9 @@
+source;share/ydlidar_sdk/hook/cmake_prefix_path.ps1
+source;share/ydlidar_sdk/hook/cmake_prefix_path.dsv
+source;share/ydlidar_sdk/hook/cmake_prefix_path.sh
+source;share/ydlidar_sdk/hook/path.ps1
+source;share/ydlidar_sdk/hook/path.dsv
+source;share/ydlidar_sdk/hook/path.sh
+source;share/ydlidar_sdk/hook/pythonscriptspath.ps1
+source;share/ydlidar_sdk/hook/pythonscriptspath.dsv
+source;share/ydlidar_sdk/hook/pythonscriptspath.sh

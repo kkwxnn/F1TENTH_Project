@@ -1,0 +1,97 @@
+[0.048s] Invoking command in '/home/ubuntu/f1tenth_ws/build/example_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/f1tenth_ws/src/example_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/f1tenth_ws/install/example_description
+[0.704s] -- The C compiler identification is GNU 11.4.0
+[1.321s] -- The CXX compiler identification is GNU 11.4.0
+[1.349s] -- Detecting C compiler ABI info
+[1.654s] -- Detecting C compiler ABI info - done
+[1.674s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.674s] -- Detecting C compile features
+[1.674s] -- Detecting C compile features - done
+[1.682s] -- Detecting CXX compiler ABI info
+[2.087s] -- Detecting CXX compiler ABI info - done
+[2.113s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.113s] -- Detecting CXX compile features
+[2.114s] -- Detecting CXX compile features - done
+[2.129s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.922s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.375s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.602s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.622s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.668s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.771s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.998s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.019s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.355s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.476s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.659s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.696s] -- Looking for pthread.h
+[4.982s] -- Looking for pthread.h - found
+[4.982s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.334s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.337s] -- Found Threads: TRUE  
+[6.009s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[6.889s] -- Configuring done
+[6.906s] -- Generating done
+[6.916s] -- Build files have been written to: /home/ubuntu/f1tenth_ws/build/example_description
+[6.999s] Invoked command in '/home/ubuntu/f1tenth_ws/build/example_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/f1tenth_ws/src/example_description -DCMAKE_INSTALL_PREFIX=/home/ubuntu/f1tenth_ws/install/example_description
+[7.004s] Invoking command in '/home/ubuntu/f1tenth_ws/build/example_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/example_description -- -j4 -l4
+[7.215s] Built target ament_cmake_python_copy_example_description
+[8.560s] running egg_info
+[8.566s] creating example_description.egg-info
+[8.570s] writing example_description.egg-info/PKG-INFO
+[8.571s] writing dependency_links to example_description.egg-info/dependency_links.txt
+[8.583s] writing top-level names to example_description.egg-info/top_level.txt
+[8.584s] writing manifest file 'example_description.egg-info/SOURCES.txt'
+[8.596s] reading manifest file 'example_description.egg-info/SOURCES.txt'
+[8.610s] writing manifest file 'example_description.egg-info/SOURCES.txt'
+[8.901s] Built target ament_cmake_python_build_example_description_egg
+[9.056s] Invoked command in '/home/ubuntu/f1tenth_ws/build/example_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/example_description -- -j4 -l4
+[9.237s] Invoking command in '/home/ubuntu/f1tenth_ws/build/example_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/example_description
+[9.277s] -- Install configuration: ""
+[9.277s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/environment/pythonpath.sh
+[9.277s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/environment/pythonpath.dsv
+[9.277s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description-0.0.0-py3.10.egg-info
+[9.278s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description-0.0.0-py3.10.egg-info/PKG-INFO
+[9.278s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.278s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description-0.0.0-py3.10.egg-info/top_level.txt
+[9.278s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.278s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description
+[9.278s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description/__init__.py
+[9.488s] Listing '/home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description'...
+[9.488s] Compiling '/home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description/__init__.py'...
+[9.572s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/launch
+[9.572s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/launch/simple_display.launch.py
+[9.572s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/robot
+[9.572s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/robot/visual
+[9.573s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/robot/visual/properties.xacro
+[9.573s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/robot/visual/manipulator.xacro
+[9.573s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/robot/visual/robot.xacro
+[9.573s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/robot/visual/mobile.xacro
+[9.574s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes
+[9.575s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes/link_2.stl
+[9.575s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes/end_effector.stl
+[9.577s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes/link_3.stl
+[9.578s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes/link_1.stl
+[9.580s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes/link_base.stl
+[9.580s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes/empty_mesh.stl
+[9.581s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/config
+[9.585s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/config/_display.rviz
+[9.586s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/config/kinematics_parameters.yaml
+[9.586s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/config/visual_parameters.yaml
+[9.587s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/config/robot_bringup.rviz
+[9.587s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/ament_index/resource_index/package_run_dependencies/example_description
+[9.587s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/ament_index/resource_index/parent_prefix_path/example_description
+[9.588s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/environment/ament_prefix_path.sh
+[9.588s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/environment/ament_prefix_path.dsv
+[9.588s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/environment/path.sh
+[9.591s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/environment/path.dsv
+[9.592s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/local_setup.bash
+[9.592s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/local_setup.sh
+[9.593s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/local_setup.zsh
+[9.593s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/local_setup.dsv
+[9.593s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.dsv
+[9.593s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/ament_index/resource_index/packages/example_description
+[9.595s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/cmake/example_descriptionConfig.cmake
+[9.598s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/cmake/example_descriptionConfig-version.cmake
+[9.598s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.xml
+[9.608s] Invoked command in '/home/ubuntu/f1tenth_ws/build/example_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/example_description

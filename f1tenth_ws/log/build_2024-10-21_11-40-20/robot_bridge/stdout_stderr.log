@@ -1,0 +1,159 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/f1tenth_ws/build/robot_bridge
+[  0%] Built target ament_cmake_python_copy_robot_bridge
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[100%] Built target cpp_node_test
+running egg_info
+creating robot_bridge.egg-info
+writing robot_bridge.egg-info/PKG-INFO
+writing dependency_links to robot_bridge.egg-info/dependency_links.txt
+writing top-level names to robot_bridge.egg-info/top_level.txt
+writing manifest file 'robot_bridge.egg-info/SOURCES.txt'
+reading manifest file 'robot_bridge.egg-info/SOURCES.txt'
+writing manifest file 'robot_bridge.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_robot_bridge_egg
+-- Install configuration: ""
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/environment/pythonpath.sh
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/environment/pythonpath.dsv
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge-0.0.0-py3.10.egg-info
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/dummy_module.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/mobile_cov_estimator.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/Command.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/mobile_kinematic.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/__init__.py
+Listing '/home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge'...
+Compiling '/home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/Command.py'...
+Compiling '/home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/__init__.py'...
+Compiling '/home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/dummy_module.py'...
+Compiling '/home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/mobile_cov_estimator.py'...
+Compiling '/home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/mobile_kinematic.py'...
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/cmd_odom.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/RobotCommand.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/mcu_bridge.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/ackerman_yaw_rate_odom.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/save_csv.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/via_points_generator.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/robot_navigator.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/save_odom_rosbag.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/cpp_node_test
+-- Set runtime path of "/home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/cpp_node_test" to ""
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/robot_bridge.launch.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/rosbag.launch.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/vmegarover_save_map.launch.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/carver_mapping.launch.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/robot_description.launch.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/save_odom_rosbag.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/ackerman_yaw_rate_odom.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/RobotCommand.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/cmd_odom.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/__pycache__
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/__pycache__/robot_navigator.cpython-310.pyc
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/robot_navigator.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/mcu_bridge.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/save_csv.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/via_points_generator.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/map_to_base_link_transform.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor4.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_city2.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor4.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_city2.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_2_keepout.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_2.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor2.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor3.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor1_filtered_2.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv1.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/vmegarover_samplemap1.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_city.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_keepout.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/FIBO_floor5_AMCL.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_keepout.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/vmegarover_samplemap1.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/FIBO_floor5_AMCL_2.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_2_keepout.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor1_filtered.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor1.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor1_filtered.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_city.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv1.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/FIBO_floor5_AMCL.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/FIBO_floor5_AMCL_2.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_2.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor2.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor3.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_3.pgm
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor1.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_3.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/config
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/config/mapper_params_online_sync.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/config/navigation_param.yaml
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/rviz
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/rviz/mapping.rviz
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/rviz/test.rviz
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/rviz/navigation.rviz
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/robot_bridge
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/robot_bridge/dummy_module.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/robot_bridge/mobile_cov_estimator.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/robot_bridge/Command.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/robot_bridge/mobile_kinematic.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/robot_bridge/__init__.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/ament_index/resource_index/package_run_dependencies/robot_bridge
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/ament_index/resource_index/parent_prefix_path/robot_bridge
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/environment/path.sh
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/environment/path.dsv
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/local_setup.bash
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/local_setup.sh
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/local_setup.zsh
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/local_setup.dsv
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.dsv
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/ament_index/resource_index/packages/robot_bridge
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/cmake/robot_bridgeConfig.cmake
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/cmake/robot_bridgeConfig-version.cmake
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.xml

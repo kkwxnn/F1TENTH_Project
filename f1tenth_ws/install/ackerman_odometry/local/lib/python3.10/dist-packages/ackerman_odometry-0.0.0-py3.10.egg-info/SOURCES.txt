@@ -1,0 +1,7 @@
+setup.py
+ackerman_odometry/__init__.py
+ackerman_odometry/dummy_module.py
+ackerman_odometry.egg-info/PKG-INFO
+ackerman_odometry.egg-info/SOURCES.txt
+ackerman_odometry.egg-info/dependency_links.txt
+ackerman_odometry.egg-info/top_level.txt

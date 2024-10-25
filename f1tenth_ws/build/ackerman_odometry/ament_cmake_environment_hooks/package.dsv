@@ -1,0 +1,4 @@
+source;share/ackerman_odometry/local_setup.bash
+source;share/ackerman_odometry/local_setup.dsv
+source;share/ackerman_odometry/local_setup.sh
+source;share/ackerman_odometry/local_setup.zsh

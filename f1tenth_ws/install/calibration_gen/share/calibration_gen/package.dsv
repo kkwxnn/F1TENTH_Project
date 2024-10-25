@@ -1,0 +1,8 @@
+source;share/calibration_gen/hook/cmake_prefix_path.ps1
+source;share/calibration_gen/hook/cmake_prefix_path.dsv
+source;share/calibration_gen/hook/cmake_prefix_path.sh
+source;share/calibration_gen/local_setup.bash
+source;share/calibration_gen/local_setup.dsv
+source;share/calibration_gen/local_setup.ps1
+source;share/calibration_gen/local_setup.sh
+source;share/calibration_gen/local_setup.zsh

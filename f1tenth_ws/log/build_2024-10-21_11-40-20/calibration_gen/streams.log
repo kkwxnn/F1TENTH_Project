@@ -1,0 +1,87 @@
+[0.046s] Invoking command in '/home/ubuntu/f1tenth_ws/build/calibration_gen': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/f1tenth_ws/src/calibration_gen -DCMAKE_INSTALL_PREFIX=/home/ubuntu/f1tenth_ws/install/calibration_gen
+[0.726s] -- The C compiler identification is GNU 11.4.0
+[1.310s] -- The CXX compiler identification is GNU 11.4.0
+[1.336s] -- Detecting C compiler ABI info
+[1.570s] -- Detecting C compiler ABI info - done
+[1.606s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.607s] -- Detecting C compile features
+[1.613s] -- Detecting C compile features - done
+[1.629s] -- Detecting CXX compiler ABI info
+[1.938s] -- Detecting CXX compiler ABI info - done
+[1.988s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.989s] -- Detecting CXX compile features
+[1.996s] -- Detecting CXX compile features - done
+[2.014s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.938s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.392s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.609s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.627s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.664s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.712s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.775s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.004s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.026s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.372s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.473s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.640s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.702s] -- Looking for pthread.h
+[4.986s] -- Looking for pthread.h - found
+[4.989s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.349s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.349s] -- Found Threads: TRUE  
+[6.072s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[6.729s] -- Configuring done
+[6.743s] -- Generating done
+[6.756s] -- Build files have been written to: /home/ubuntu/f1tenth_ws/build/calibration_gen
+[6.796s] Invoked command in '/home/ubuntu/f1tenth_ws/build/calibration_gen' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/f1tenth_ws/src/calibration_gen -DCMAKE_INSTALL_PREFIX=/home/ubuntu/f1tenth_ws/install/calibration_gen
+[6.799s] Invoking command in '/home/ubuntu/f1tenth_ws/build/calibration_gen': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/calibration_gen -- -j4 -l4
+[7.019s] Built target ament_cmake_python_copy_calibration_gen
+[7.980s] running egg_info
+[7.980s] creating calibration_gen.egg-info
+[7.984s] writing calibration_gen.egg-info/PKG-INFO
+[7.985s] writing dependency_links to calibration_gen.egg-info/dependency_links.txt
+[7.985s] writing top-level names to calibration_gen.egg-info/top_level.txt
+[7.986s] writing manifest file 'calibration_gen.egg-info/SOURCES.txt'
+[8.003s] reading manifest file 'calibration_gen.egg-info/SOURCES.txt'
+[8.008s] writing manifest file 'calibration_gen.egg-info/SOURCES.txt'
+[8.375s] Built target ament_cmake_python_build_calibration_gen_egg
+[8.436s] Invoked command in '/home/ubuntu/f1tenth_ws/build/calibration_gen' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/calibration_gen -- -j4 -l4
+[8.627s] Invoking command in '/home/ubuntu/f1tenth_ws/build/calibration_gen': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/calibration_gen
+[8.655s] -- Install configuration: ""
+[8.679s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/environment/pythonpath.sh
+[8.679s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/environment/pythonpath.dsv
+[8.679s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/local/lib/python3.10/dist-packages/calibration_gen-0.0.0-py3.10.egg-info
+[8.679s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/local/lib/python3.10/dist-packages/calibration_gen-0.0.0-py3.10.egg-info/PKG-INFO
+[8.680s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/local/lib/python3.10/dist-packages/calibration_gen-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.680s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/local/lib/python3.10/dist-packages/calibration_gen-0.0.0-py3.10.egg-info/top_level.txt
+[8.682s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/local/lib/python3.10/dist-packages/calibration_gen-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.688s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/local/lib/python3.10/dist-packages/calibration_gen
+[8.688s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/local/lib/python3.10/dist-packages/calibration_gen/euler_angle_estimation.py
+[8.688s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/local/lib/python3.10/dist-packages/calibration_gen/__init__.py
+[8.877s] Listing '/home/ubuntu/f1tenth_ws/install/calibration_gen/local/lib/python3.10/dist-packages/calibration_gen'...
+[8.878s] Compiling '/home/ubuntu/f1tenth_ws/install/calibration_gen/local/lib/python3.10/dist-packages/calibration_gen/__init__.py'...
+[8.878s] Compiling '/home/ubuntu/f1tenth_ws/install/calibration_gen/local/lib/python3.10/dist-packages/calibration_gen/euler_angle_estimation.py'...
+[8.926s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/lib/calibration_gen/signal_generate.py
+[8.932s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/lib/calibration_gen/imuread_node.py
+[8.933s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/lib/calibration_gen/cal_node.py
+[8.940s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/config
+[8.940s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/config/sensor_calibration.yaml
+[8.940s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/config/config.yaml
+[8.941s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/config/sensor_calibration _dynamic.yaml
+[8.941s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/config/sensor_calibration_steady_state.yaml
+[8.941s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/ament_index/resource_index/package_run_dependencies/calibration_gen
+[8.944s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/ament_index/resource_index/parent_prefix_path/calibration_gen
+[8.944s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/environment/ament_prefix_path.sh
+[8.948s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/environment/ament_prefix_path.dsv
+[8.948s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/environment/path.sh
+[8.948s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/environment/path.dsv
+[8.948s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/local_setup.bash
+[8.948s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/local_setup.sh
+[8.948s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/local_setup.zsh
+[8.949s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/local_setup.dsv
+[8.949s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/package.dsv
+[8.949s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/ament_index/resource_index/packages/calibration_gen
+[8.949s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/cmake/calibration_genConfig.cmake
+[8.949s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/cmake/calibration_genConfig-version.cmake
+[8.953s] -- Installing: /home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/package.xml
+[8.961s] Invoked command in '/home/ubuntu/f1tenth_ws/build/calibration_gen' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/calibration_gen

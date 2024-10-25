@@ -1,0 +1,3 @@
+source;share/ackerman_odometry/environment/ament_prefix_path.sh
+source;share/ackerman_odometry/environment/path.sh
+source;share/ackerman_odometry/environment/pythonpath.sh

@@ -14,6 +14,7 @@ services:
     # image: tiryoh/ros2-desktop-vnc:humble
     image: kkwxnn/f1tenth-vnc:humble
     container_name: desktop_ros2
+    privileged: true
     security_opt:
       - seccomp=unconfined
     shm_size: 512m
@@ -23,9 +24,12 @@ services:
     volumes:
       - /home/pi/F1TENTH_PROJECT/f1tenth_ws:/home/ubuntu/f1tenth_ws:rw
       - "/dev:/dev"
+      - "/dev/input:/dev/input"
+      - "/dev/bus/usb:/dev/bus/usb"
     devices:
       - "/dev/ttyUSB0:/dev/ttyUSB0"
     restart: unless-stopped
+
 
   t265-humble:
     image: nopparujan/t265-ros2-humble

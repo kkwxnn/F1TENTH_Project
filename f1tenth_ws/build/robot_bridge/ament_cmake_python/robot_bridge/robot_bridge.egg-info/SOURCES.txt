@@ -1,0 +1,10 @@
+setup.py
+robot_bridge/Command.py
+robot_bridge/__init__.py
+robot_bridge/dummy_module.py
+robot_bridge/mobile_cov_estimator.py
+robot_bridge/mobile_kinematic.py
+robot_bridge.egg-info/PKG-INFO
+robot_bridge.egg-info/SOURCES.txt
+robot_bridge.egg-info/dependency_links.txt
+robot_bridge.egg-info/top_level.txt

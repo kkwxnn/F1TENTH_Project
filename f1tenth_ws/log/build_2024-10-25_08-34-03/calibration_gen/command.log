@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/f1tenth_ws/build/calibration_gen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/calibration_gen -- -j4 -l4
+Invoked command in '/home/ubuntu/f1tenth_ws/build/calibration_gen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/calibration_gen -- -j4 -l4
+Invoking command in '/home/ubuntu/f1tenth_ws/build/calibration_gen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/calibration_gen
+Invoked command in '/home/ubuntu/f1tenth_ws/build/calibration_gen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/calibration_gen

@@ -1,0 +1,4 @@
+source;share/calibration_gen/local_setup.bash
+source;share/calibration_gen/local_setup.dsv
+source;share/calibration_gen/local_setup.sh
+source;share/calibration_gen/local_setup.zsh

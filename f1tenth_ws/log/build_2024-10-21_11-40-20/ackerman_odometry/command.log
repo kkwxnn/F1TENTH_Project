@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/f1tenth_ws/src/ackerman_odometry -DCMAKE_INSTALL_PREFIX=/home/ubuntu/f1tenth_ws/install/ackerman_odometry
+Invoked command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/f1tenth_ws/src/ackerman_odometry -DCMAKE_INSTALL_PREFIX=/home/ubuntu/f1tenth_ws/install/ackerman_odometry
+Invoking command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ackerman_odometry -- -j4 -l4
+Invoked command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ackerman_odometry -- -j4 -l4
+Invoking command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ackerman_odometry
+Invoked command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ackerman_odometry
