@@ -76,6 +76,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/ubuntu/f1tenth_ws/src/robot_bridge/scripts/via_points_generator.py"
     "/home/ubuntu/f1tenth_ws/src/robot_bridge/scripts/robot_navigator.py"
     "/home/ubuntu/f1tenth_ws/src/robot_bridge/scripts/save_odom_rosbag.py"
+    "/home/ubuntu/f1tenth_ws/src/robot_bridge/scripts/joy_control.py"
     )
 endif()
 

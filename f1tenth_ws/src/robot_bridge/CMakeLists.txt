@@ -35,6 +35,7 @@ install(PROGRAMS
   scripts/via_points_generator.py
   scripts/robot_navigator.py
   scripts/save_odom_rosbag.py
+  scripts/joy_control.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

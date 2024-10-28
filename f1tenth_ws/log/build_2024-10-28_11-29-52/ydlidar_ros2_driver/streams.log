@@ -1,0 +1,44 @@
+[0.036s] Invoking command in '/home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[0.356s] [ 50%] Built target ydlidar_ros2_driver_node
+[0.535s] [100%] Built target ydlidar_ros2_driver_client
+[0.628s] Invoked command in '/home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[0.863s] Invoking command in '/home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver
+[0.918s] -- Install configuration: ""
+[0.918s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[0.920s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[0.921s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch
+[0.921s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[0.921s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[0.921s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[0.921s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params
+[0.921s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[0.922s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config
+[0.923s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[0.923s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[0.923s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[0.923s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[0.924s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[0.925s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[0.926s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[0.926s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[0.944s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[0.944s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[0.949s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[0.949s] -- Installing: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[0.952s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[0.953s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[0.955s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[0.959s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[0.968s] Invoked command in '/home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver
