@@ -1,0 +1,156 @@
+[0.039s] Invoking command in '/home/ubuntu/f1tenth_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ydlidar_sdk -- -j4 -l4
+[0.150s] [ 40%] Built target ydlidar_sdk
+[0.200s] [ 44%] Built target et_test
+[0.205s] [ 53%] Built target gs_test2
+[0.206s] [ 53%] Built target gs_ota
+[0.210s] [ 57%] Built target gs_test
+[0.247s] [ 61%] Built target scl_test
+[0.255s] [ 65%] Built target sdm18_test
+[0.255s] [ 70%] Built target sdm_test
+[0.262s] [ 74%] Built target tea_test
+[0.290s] [ 78%] Built target tmini_test
+[0.290s] [ 82%] Built target tof_test
+[0.307s] [ 87%] Built target tri_restart
+[0.321s] [ 91%] Built target tri_and_gs_test
+[0.325s] [ 95%] Built target tri_test
+[0.330s] [100%] Built target lidar_c_api_test
+[0.345s] Invoked command in '/home/ubuntu/f1tenth_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ydlidar_sdk -- -j4 -l4
+[0.430s] Invoking command in '/home/ubuntu/f1tenth_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ydlidar_sdk
+[0.440s] -- Install configuration: ""
+[0.440s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/base/datatype.h
+[0.440s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/base/locker.h
+[0.440s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/base/thread.h
+[0.440s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/base/timer.h
+[0.440s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/base/typedef.h
+[0.440s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/base/utils.h
+[0.440s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/base/v8stdint.h
+[0.440s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/base/ydlidar.h
+[0.440s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/common/ChannelDevice.h
+[0.440s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/common/DriverInterface.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/common/ydlidar_def.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/common/ydlidar_help.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/math/angles.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/network/ActiveSocket.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/network/PassiveSocket.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/network/SimpleSocket.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/network/StatTimer.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/serial/common.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/serial/serial.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h
+[0.441s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/src/CYdLidar.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/src/DTSLidarDriver.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/src/ETLidarDriver.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/src/GSLidarDriver.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/src/SDMLidarDriver.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/src/YDlidarDriver.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/src/ydlidar_sdk.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/src/filters/FilterInterface.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/src/filters/NoiseFilter.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/src/filters/StrongLightFilter.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/include/ydlidar_config.h
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/lib/libydlidar_sdk.a
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake
+[0.442s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake
+[0.443s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake
+[0.443s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake
+[0.443s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK
+[0.443s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake
+[0.443s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in
+[0.443s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in
+[0.443s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md
+[0.444s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md
+[0.445s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto
+[0.446s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png
+[0.447s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/startup/initenv.sh
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/et_test
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/gs_ota
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/gs_test
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/gs_test2
+[0.448s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/scl_test
+[0.449s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/sdm18_test
+[0.449s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/sdm_test
+[0.449s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/tea_test
+[0.449s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/tmini_test
+[0.449s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/tof_test
+[0.449s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/tri_and_gs_test
+[0.449s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/tri_restart
+[0.450s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/tri_test
+[0.450s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin/lidar_c_api_test
+[0.450s] Invoked command in '/home/ubuntu/f1tenth_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ydlidar_sdk

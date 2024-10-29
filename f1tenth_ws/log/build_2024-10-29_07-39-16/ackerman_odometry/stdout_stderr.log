@@ -1,0 +1,40 @@
+[100%] Built target cpp_node_test
+[100%] Built target ament_cmake_python_copy_ackerman_odometry
+running egg_info
+writing ackerman_odometry.egg-info/PKG-INFO
+writing dependency_links to ackerman_odometry.egg-info/dependency_links.txt
+writing top-level names to ackerman_odometry.egg-info/top_level.txt
+reading manifest file 'ackerman_odometry.egg-info/SOURCES.txt'
+writing manifest file 'ackerman_odometry.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ackerman_odometry_egg
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/environment/pythonpath.sh
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/environment/pythonpath.dsv
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry-0.0.0-py3.10.egg-info
+-- Installing: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry/dummy_module.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry/__init__.py
+Listing '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry'...
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/lib/ackerman_odometry/dummy_script.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/lib/ackerman_odometry/odometry_calculation.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/lib/ackerman_odometry/cpp_node_test
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ament_index/resource_index/package_run_dependencies/ackerman_odometry
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ament_index/resource_index/parent_prefix_path/ackerman_odometry
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/environment/path.sh
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/environment/path.dsv
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/local_setup.bash
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/local_setup.sh
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/local_setup.zsh
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/local_setup.dsv
+-- Installing: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.dsv
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ament_index/resource_index/packages/ackerman_odometry
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/cmake/ackerman_odometryConfig.cmake
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/cmake/ackerman_odometryConfig-version.cmake
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.xml

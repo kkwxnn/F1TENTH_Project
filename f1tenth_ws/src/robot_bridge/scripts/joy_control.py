@@ -12,14 +12,19 @@ class JoyControl(Node):
         self.subscription = self.create_subscription(Joy, 'joy', self.joy_callback, 10)
         self.pub_cmd = self.create_publisher(Twist, 'cmd_vel', 10)
         self.twist = Twist()
-        self.v_max = 2.0
+        self.v_max = 2.5 #2.0
         self.w_max = np.tan(0.698) / 0.263
 
     def joy_callback(self, msg):
-        # Use axes[1] for x direction
-        self.twist.linear.x = msg.axes[1] * self.v_max  # Control forward and backward
-        # Use axes[2] for steering left and right
-        self.twist.angular.z = msg.axes[2] * self.w_max  # Control steering
+        # Use axes[1] for x direction (forward/backward)
+        self.twist.linear.x = msg.axes[1] * self.v_max
+
+        # Control steering with axes[4] (left) and axes[5] (right)
+        left_turn = msg.axes[4]  # Left turn input
+        right_turn = msg.axes[5]  # Right turn input
+
+        # Calculate the angular.z by subtracting right turn from left turn, scaling with w_max
+        self.twist.angular.z = (left_turn - right_turn) * self.w_max
 
         # Publish the Twist message to control the car
         self.pub_cmd.publish(self.twist)

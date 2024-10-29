@@ -51,7 +51,7 @@ class RobotCommandNode(Node):
         self.motor_speed = self.wheel2motor(self.wheel_speed, self.wheel2motor_ratio)
 
         if self.cmd_vel[0] != 0.0:
-            self.steer_angle = np.arctan(self.cmd_vel[1]*0.263/self.cmd_vel[0]) * (-1) #0.257 #0.262
+            self.steer_angle = np.arctan(self.cmd_vel[1]*0.263/np.abs(self.cmd_vel[0])) * (-1) #0.257 #0.262
         else:
             self.steer_angle = np.arctan(self.cmd_vel[1]*0.263/1.0e-9) * (-1)
 
