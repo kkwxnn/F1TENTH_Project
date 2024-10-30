@@ -1,0 +1,58 @@
+[0.104s] Invoking command in '/home/ubuntu/f1tenth_ws/build/example_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/example_description -- -j4 -l4
+[0.493s] Built target ament_cmake_python_copy_example_description
+[1.180s] running egg_info
+[1.184s] writing example_description.egg-info/PKG-INFO
+[1.185s] writing dependency_links to example_description.egg-info/dependency_links.txt
+[1.185s] writing top-level names to example_description.egg-info/top_level.txt
+[1.200s] reading manifest file 'example_description.egg-info/SOURCES.txt'
+[1.200s] writing manifest file 'example_description.egg-info/SOURCES.txt'
+[1.326s] Built target ament_cmake_python_build_example_description_egg
+[1.361s] Invoked command in '/home/ubuntu/f1tenth_ws/build/example_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/example_description -- -j4 -l4
+[1.474s] Invoking command in '/home/ubuntu/f1tenth_ws/build/example_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/example_description
+[1.505s] -- Install configuration: ""
+[1.506s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/environment/pythonpath.sh
+[1.506s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/environment/pythonpath.dsv
+[1.506s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description-0.0.0-py3.10.egg-info
+[1.506s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description-0.0.0-py3.10.egg-info/PKG-INFO
+[1.506s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.506s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description-0.0.0-py3.10.egg-info/top_level.txt
+[1.507s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.507s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description
+[1.510s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description/__init__.py
+[1.613s] Listing '/home/ubuntu/f1tenth_ws/install/example_description/local/lib/python3.10/dist-packages/example_description'...
+[1.643s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/launch
+[1.644s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/launch/simple_display.launch.py
+[1.645s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/robot
+[1.645s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/robot/visual
+[1.645s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/robot/visual/properties.xacro
+[1.646s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/robot/visual/manipulator.xacro
+[1.646s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/robot/visual/robot.xacro
+[1.646s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/robot/visual/mobile.xacro
+[1.646s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes
+[1.646s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes/link_2.stl
+[1.646s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes/end_effector.stl
+[1.646s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes/link_3.stl
+[1.646s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes/link_1.stl
+[1.646s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes/link_base.stl
+[1.647s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/meshes/empty_mesh.stl
+[1.647s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/config
+[1.647s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/config/_display.rviz
+[1.647s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/config/kinematics_parameters.yaml
+[1.647s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/config/visual_parameters.yaml
+[1.647s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/config/robot_bringup.rviz
+[1.647s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/ament_index/resource_index/package_run_dependencies/example_description
+[1.648s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/ament_index/resource_index/parent_prefix_path/example_description
+[1.648s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/environment/ament_prefix_path.sh
+[1.648s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/environment/ament_prefix_path.dsv
+[1.648s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/environment/path.sh
+[1.648s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/environment/path.dsv
+[1.648s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/local_setup.bash
+[1.648s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/local_setup.sh
+[1.648s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/local_setup.zsh
+[1.648s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/local_setup.dsv
+[1.648s] -- Installing: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.dsv
+[1.648s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/ament_index/resource_index/packages/example_description
+[1.648s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/cmake/example_descriptionConfig.cmake
+[1.649s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/cmake/example_descriptionConfig-version.cmake
+[1.649s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.xml
+[1.660s] Invoked command in '/home/ubuntu/f1tenth_ws/build/example_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/example_description

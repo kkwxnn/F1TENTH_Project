@@ -18,6 +18,8 @@
 /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/robot_navigator.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/save_odom_rosbag.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/joy_control.py
+/home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/t265_odom.py
+/home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/robot_class.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/cpp_node_test
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/robot_bridge.launch.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/rosbag.launch.py
@@ -25,13 +27,16 @@
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/carver_mapping.launch.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/robot_description.launch.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/save_odom_rosbag.py
+/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/t265_odom.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/joy_control.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/ackerman_yaw_rate_odom.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/RobotCommand.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/cmd_odom.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/__pycache__/robot_navigator.cpython-310.pyc
+/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/__pycache__/robot_class.cpython-310.pyc
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/robot_navigator.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/mcu_bridge.py
+/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/robot_class.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/save_csv.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/via_points_generator.py
 /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/map_to_base_link_transform.py

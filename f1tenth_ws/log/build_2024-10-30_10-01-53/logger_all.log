@@ -1,0 +1,1179 @@
+[0.402s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.402s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fffb6845030>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fffb6961b40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fffb6961b40>>)
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.755s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/f1tenth_ws'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extension 'ros'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extensions ['cmake', 'python']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extension 'cmake'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extension 'python'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extensions ['python_setup_py']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test) by extension 'python_setup_py'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extension 'python'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extensions ['python_setup_py']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_0.5) by extension 'python_setup_py'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extension 'colcon_pkg'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extensions ['colcon_meta']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extensions ['ros']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extension 'ros'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extensions ['cmake', 'python']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extension 'cmake'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extension 'python'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extensions ['python_setup_py']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_1.5) by extension 'python_setup_py'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extension 'ignore_ament_install'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extension 'colcon_pkg'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extensions ['colcon_meta']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extensions ['ros']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extension 'ros'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extensions ['cmake', 'python']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extension 'cmake'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extension 'python'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extensions ['python_setup_py']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_circle_2.0) by extension 'python_setup_py'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extension 'python'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extensions ['python_setup_py']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_0.5) by extension 'python_setup_py'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extension 'ros'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extensions ['cmake', 'python']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extension 'cmake'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extension 'python'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extensions ['python_setup_py']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_1.5) by extension 'python_setup_py'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extensions ['ros']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extension 'ros'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extensions ['cmake', 'python']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extension 'cmake'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extension 'python'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extensions ['python_setup_py']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_line_2.0) by extension 'python_setup_py'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extension 'ignore_ament_install'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extensions ['colcon_pkg']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extensions ['colcon_meta']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extension 'ros'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extensions ['cmake', 'python']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extension 'cmake'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extension 'python'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extensions ['python_setup_py']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_0.5) by extension 'python_setup_py'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extension 'colcon_pkg'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extension 'colcon_meta'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extension 'ros'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extensions ['cmake', 'python']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extension 'cmake'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extension 'python'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extensions ['python_setup_py']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_1.5) by extension 'python_setup_py'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extension 'ignore_ament_install'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extensions ['colcon_pkg']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extension 'colcon_pkg'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extensions ['colcon_meta']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extension 'colcon_meta'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extensions ['ros']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extension 'ros'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extensions ['cmake', 'python']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extension 'cmake'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extension 'python'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extensions ['python_setup_py']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(acckalman_test/acckalman_obj_2.0) by extension 'python_setup_py'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extension 'ros'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extensions ['cmake', 'python']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extension 'cmake'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extension 'python'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extensions ['python_setup_py']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test) by extension 'python_setup_py'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extensions ['colcon_meta']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extension 'colcon_meta'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extensions ['ros']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extension 'ros'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extensions ['cmake', 'python']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extension 'cmake'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extension 'python'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extensions ['python_setup_py']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_0.5) by extension 'python_setup_py'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extension 'ros'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extensions ['cmake', 'python']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extension 'cmake'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extension 'python'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extensions ['python_setup_py']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_Circle_1.0) by extension 'python_setup_py'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extension 'ros'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extensions ['cmake', 'python']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extension 'cmake'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extension 'python'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extensions ['python_setup_py']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_0.5) by extension 'python_setup_py'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extension 'ignore_ament_install'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extensions ['colcon_pkg']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extension 'colcon_pkg'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extensions ['colcon_meta']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extension 'colcon_meta'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extensions ['ros']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extension 'ros'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extensions ['cmake', 'python']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extension 'cmake'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extension 'python'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extensions ['python_setup_py']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_around_object_1.0) by extension 'python_setup_py'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extension 'ignore_ament_install'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extensions ['colcon_pkg']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extension 'colcon_pkg'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extensions ['colcon_meta']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extension 'colcon_meta'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extensions ['ros']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extension 'ros'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extensions ['cmake', 'python']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extension 'cmake'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extension 'python'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extensions ['python_setup_py']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_0.25) by extension 'python_setup_py'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extensions ['ignore', 'ignore_ament_install']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extension 'ignore'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extension 'ignore_ament_install'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extensions ['colcon_pkg']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extension 'colcon_pkg'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extensions ['colcon_meta']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extension 'colcon_meta'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extensions ['ros']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extension 'ros'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extensions ['cmake', 'python']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extension 'cmake'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extension 'python'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extensions ['python_setup_py']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1) by extension 'python_setup_py'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extensions ['ignore', 'ignore_ament_install']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extension 'ignore'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extension 'ignore_ament_install'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extensions ['colcon_pkg']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extension 'colcon_pkg'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extensions ['colcon_meta']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extension 'colcon_meta'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extensions ['ros']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extension 'ros'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extensions ['cmake', 'python']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extension 'cmake'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extension 'python'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extensions ['python_setup_py']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/ACML_straight_1.0) by extension 'python_setup_py'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extensions ['colcon_pkg']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extension 'colcon_pkg'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extensions ['colcon_meta']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extension 'ros'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extensions ['cmake', 'python']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extension 'cmake'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extension 'python'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extensions ['python_setup_py']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_0.5) by extension 'python_setup_py'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extension 'ignore_ament_install'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extensions ['colcon_pkg']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extension 'colcon_pkg'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extensions ['colcon_meta']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extension 'colcon_meta'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extensions ['ros']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extension 'ros'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extensions ['cmake', 'python']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extension 'cmake'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extension 'python'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extensions ['python_setup_py']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.0) by extension 'python_setup_py'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extension 'ignore_ament_install'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extensions ['colcon_pkg']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extension 'colcon_pkg'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extensions ['colcon_meta']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extension 'colcon_meta'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extensions ['ros']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extension 'ros'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extensions ['cmake', 'python']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extension 'cmake'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extension 'python'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extensions ['python_setup_py']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5) by extension 'python_setup_py'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extensions ['ignore', 'ignore_ament_install']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extension 'ignore'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extension 'ignore_ament_install'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extensions ['colcon_pkg']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extension 'colcon_pkg'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extensions ['colcon_meta']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extension 'colcon_meta'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extensions ['ros']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extension 'ros'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extensions ['cmake', 'python']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extension 'cmake'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extension 'python'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extensions ['python_setup_py']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_1.5_2) by extension 'python_setup_py'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extension 'ignore'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extension 'ignore_ament_install'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extensions ['colcon_pkg']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extension 'colcon_pkg'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extensions ['colcon_meta']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extension 'colcon_meta'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extensions ['ros']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extension 'ros'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extensions ['cmake', 'python']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extension 'cmake'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extension 'python'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extensions ['python_setup_py']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_2.0) by extension 'python_setup_py'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extensions ['ignore', 'ignore_ament_install']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extension 'ignore'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extension 'ignore_ament_install'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extensions ['colcon_pkg']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extension 'colcon_pkg'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extensions ['colcon_meta']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extension 'colcon_meta'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extensions ['ros']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extension 'ros'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extensions ['cmake', 'python']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extension 'cmake'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extension 'python'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extensions ['python_setup_py']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_around_object) by extension 'python_setup_py'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extensions ['ignore', 'ignore_ament_install']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extension 'ignore'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extension 'ignore_ament_install'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extensions ['colcon_pkg']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extension 'colcon_pkg'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extensions ['colcon_meta']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extension 'colcon_meta'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extensions ['ros']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extension 'ros'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extensions ['cmake', 'python']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extension 'cmake'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extension 'python'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extensions ['python_setup_py']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/AMCL_circle_5) by extension 'python_setup_py'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extension 'ignore'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extension 'ignore_ament_install'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extensions ['colcon_pkg']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extension 'colcon_pkg'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extensions ['colcon_meta']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extension 'colcon_meta'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extensions ['ros']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extension 'ros'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extensions ['cmake', 'python']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extension 'cmake'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extension 'python'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extensions ['python_setup_py']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_0.5) by extension 'python_setup_py'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extension 'ignore'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extension 'ignore_ament_install'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extensions ['colcon_pkg']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extension 'colcon_pkg'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extensions ['colcon_meta']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extension 'colcon_meta'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extensions ['ros']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extension 'ros'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extensions ['cmake', 'python']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extension 'cmake'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extension 'python'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extensions ['python_setup_py']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0) by extension 'python_setup_py'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extensions ['ignore', 'ignore_ament_install']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extension 'ignore'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extension 'ignore_ament_install'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extensions ['colcon_pkg']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extension 'colcon_pkg'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extensions ['colcon_meta']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extension 'colcon_meta'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extensions ['ros']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extension 'ros'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extensions ['cmake', 'python']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extension 'cmake'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extension 'python'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extensions ['python_setup_py']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Circle_2.0_2) by extension 'python_setup_py'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extension 'ignore'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extension 'ignore_ament_install'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extensions ['colcon_pkg']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extension 'colcon_pkg'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extensions ['colcon_meta']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extension 'colcon_meta'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extensions ['ros']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extension 'ros'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extensions ['cmake', 'python']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extension 'cmake'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extension 'python'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extensions ['python_setup_py']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_0.5) by extension 'python_setup_py'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extension 'ignore_ament_install'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extensions ['colcon_pkg']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extension 'colcon_pkg'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extensions ['colcon_meta']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extension 'colcon_meta'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extensions ['ros']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extension 'ros'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extensions ['cmake', 'python']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extension 'cmake'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extension 'python'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extensions ['python_setup_py']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking2_Obj_2.0) by extension 'python_setup_py'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extension 'ignore_ament_install'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extensions ['colcon_pkg']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extension 'colcon_pkg'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extensions ['colcon_meta']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extension 'colcon_meta'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extensions ['ros']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extension 'ros'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extensions ['cmake', 'python']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extension 'cmake'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extension 'python'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extensions ['python_setup_py']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_0.5) by extension 'python_setup_py'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extension 'ignore_ament_install'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extensions ['colcon_pkg']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extension 'colcon_pkg'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extensions ['colcon_meta']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extension 'colcon_meta'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extensions ['ros']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extension 'ros'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extensions ['cmake', 'python']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extension 'cmake'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extension 'python'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extensions ['python_setup_py']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_1.0) by extension 'python_setup_py'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extensions ['colcon_meta']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extension 'colcon_meta'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extensions ['ros']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extension 'ros'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extensions ['cmake', 'python']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extension 'cmake'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extension 'python'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extensions ['python_setup_py']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Circle_2.0) by extension 'python_setup_py'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extension 'ignore_ament_install'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extensions ['colcon_pkg']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extension 'colcon_pkg'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extensions ['colcon_meta']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extension 'colcon_meta'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extensions ['ros']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extension 'ros'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extensions ['cmake', 'python']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extension 'cmake'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extension 'python'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extensions ['python_setup_py']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_0.5) by extension 'python_setup_py'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extensions ['ignore', 'ignore_ament_install']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extension 'ignore'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extension 'ignore_ament_install'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extensions ['colcon_pkg']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extension 'colcon_pkg'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extensions ['colcon_meta']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extension 'colcon_meta'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extensions ['ros']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extension 'ros'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extensions ['cmake', 'python']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extension 'cmake'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extension 'python'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extensions ['python_setup_py']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_1.0) by extension 'python_setup_py'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extension 'ignore'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extension 'ignore_ament_install'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extensions ['colcon_pkg']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extension 'colcon_pkg'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extensions ['colcon_meta']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extension 'colcon_meta'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extensions ['ros']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extension 'ros'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extensions ['cmake', 'python']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extension 'cmake'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extension 'python'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extensions ['python_setup_py']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Line_2.0) by extension 'python_setup_py'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extension 'ignore'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extension 'ignore_ament_install'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extensions ['colcon_pkg']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extension 'colcon_pkg'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extensions ['colcon_meta']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extension 'colcon_meta'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extensions ['ros']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extension 'ros'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extensions ['cmake', 'python']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extension 'cmake'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extension 'python'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extensions ['python_setup_py']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_0.5) by extension 'python_setup_py'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extensions ['ignore', 'ignore_ament_install']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extension 'ignore'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extension 'ignore_ament_install'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extensions ['colcon_pkg']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extension 'colcon_pkg'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extensions ['colcon_meta']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extension 'colcon_meta'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extensions ['ros']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extension 'ros'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extensions ['cmake', 'python']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extension 'cmake'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extension 'python'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extensions ['python_setup_py']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_1.0) by extension 'python_setup_py'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extension 'ignore'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extension 'ignore_ament_install'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extensions ['colcon_pkg']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extension 'colcon_pkg'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extensions ['colcon_meta']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extension 'colcon_meta'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extensions ['ros']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extension 'ros'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extensions ['cmake', 'python']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extension 'cmake'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extension 'python'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extensions ['python_setup_py']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0) by extension 'python_setup_py'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extensions ['ignore', 'ignore_ament_install']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extension 'ignore'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extension 'ignore_ament_install'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extensions ['colcon_pkg']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extension 'colcon_pkg'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extensions ['ros']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extension 'ros'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extensions ['cmake', 'python']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extension 'cmake'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extension 'python'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extensions ['python_setup_py']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(odom_test/CamTracking_Obj_2.0_1) by extension 'python_setup_py'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extensions ['ignore', 'ignore_ament_install']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extension 'ignore'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extension 'ignore_ament_install'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extensions ['colcon_pkg']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extension 'colcon_pkg'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extensions ['ros']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extension 'ros'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extensions ['cmake', 'python']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extension 'cmake'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extension 'python'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extensions ['python_setup_py']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test) by extension 'python_setup_py'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extension 'ignore'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extension 'ignore_ament_install'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extensions ['colcon_pkg']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extension 'colcon_pkg'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extensions ['colcon_meta']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extension 'colcon_meta'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extensions ['ros']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extension 'ros'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extensions ['cmake', 'python']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extension 'cmake'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extension 'python'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extensions ['python_setup_py']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_0.5) by extension 'python_setup_py'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extension 'ignore'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extension 'ignore_ament_install'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extensions ['colcon_pkg']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extension 'colcon_pkg'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extensions ['colcon_meta']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extension 'colcon_meta'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extensions ['ros']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extension 'ros'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extensions ['cmake', 'python']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extension 'cmake'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extension 'python'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extensions ['python_setup_py']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5) by extension 'python_setup_py'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extension 'ignore_ament_install'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extensions ['colcon_pkg']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extension 'colcon_pkg'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extensions ['colcon_meta']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extension 'colcon_meta'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extensions ['ros']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extension 'ros'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extensions ['cmake', 'python']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extension 'cmake'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extension 'python'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extensions ['python_setup_py']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_1.5_2) by extension 'python_setup_py'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extension 'ignore'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extension 'ignore_ament_install'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extensions ['colcon_pkg']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extension 'colcon_pkg'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extensions ['colcon_meta']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extension 'colcon_meta'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extensions ['ros']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extension 'ros'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extensions ['cmake', 'python']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extension 'cmake'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extension 'python'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extensions ['python_setup_py']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0) by extension 'python_setup_py'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extensions ['ignore', 'ignore_ament_install']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extension 'ignore'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extension 'ignore_ament_install'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extensions ['colcon_pkg']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extension 'colcon_pkg'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extensions ['colcon_meta']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extension 'colcon_meta'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extensions ['ros']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extension 'ros'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extensions ['cmake', 'python']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extension 'cmake'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extension 'python'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extensions ['python_setup_py']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_circle_2.0_2) by extension 'python_setup_py'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extension 'ignore_ament_install'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extensions ['colcon_pkg']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extension 'colcon_pkg'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extensions ['colcon_meta']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extension 'colcon_meta'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extensions ['ros']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extension 'ros'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extensions ['cmake', 'python']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extension 'cmake'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extension 'python'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extensions ['python_setup_py']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_0.5) by extension 'python_setup_py'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extension 'ignore'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extension 'ignore_ament_install'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extensions ['colcon_pkg']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extension 'colcon_pkg'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extensions ['colcon_meta']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extension 'colcon_meta'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extensions ['ros']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extension 'ros'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extensions ['cmake', 'python']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extension 'cmake'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extension 'python'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extensions ['python_setup_py']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_1.5) by extension 'python_setup_py'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extension 'ignore'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extension 'ignore_ament_install'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extensions ['colcon_pkg']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extension 'colcon_pkg'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extensions ['colcon_meta']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extension 'colcon_meta'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extensions ['ros']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extension 'ros'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extensions ['cmake', 'python']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extension 'cmake'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extension 'python'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extensions ['python_setup_py']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_line_2.0) by extension 'python_setup_py'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extensions ['ignore', 'ignore_ament_install']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extension 'ignore'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extension 'ignore_ament_install'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extensions ['colcon_pkg']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extension 'colcon_pkg'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extensions ['colcon_meta']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extension 'colcon_meta'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extensions ['ros']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extension 'ros'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extensions ['cmake', 'python']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extension 'cmake'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extension 'python'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extensions ['python_setup_py']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_0.5) by extension 'python_setup_py'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extensions ['ignore', 'ignore_ament_install']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extension 'ignore'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extension 'ignore_ament_install'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extensions ['colcon_pkg']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extension 'colcon_pkg'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extensions ['colcon_meta']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extension 'colcon_meta'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extensions ['ros']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extension 'ros'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extensions ['cmake', 'python']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extension 'cmake'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extension 'python'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extensions ['python_setup_py']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_1.5) by extension 'python_setup_py'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extensions ['ignore', 'ignore_ament_install']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extension 'ignore'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extension 'ignore_ament_install'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extensions ['colcon_pkg']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extension 'colcon_pkg'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extensions ['colcon_meta']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extension 'colcon_meta'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extensions ['ros']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extension 'ros'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extensions ['cmake', 'python']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extension 'cmake'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extension 'python'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extensions ['python_setup_py']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(optical_test/optical_obj_2.0) by extension 'python_setup_py'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore_ament_install'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_pkg']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_pkg'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_meta']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_meta'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ros']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ros'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['cmake', 'python']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'cmake'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'python'
+[0.849s] DEBUG:colcon.colcon_core.package_identification:Package 'src/YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackerman_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackerman_odometry) by extension 'ignore'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackerman_odometry) by extension 'ignore_ament_install'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackerman_odometry) by extensions ['colcon_pkg']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackerman_odometry) by extension 'colcon_pkg'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackerman_odometry) by extensions ['colcon_meta']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackerman_odometry) by extension 'colcon_meta'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackerman_odometry) by extensions ['ros']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackerman_odometry) by extension 'ros'
+[0.855s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackerman_odometry' with type 'ros.ament_cmake' and name 'ackerman_odometry'
+[0.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration_gen) by extensions ['ignore', 'ignore_ament_install']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration_gen) by extension 'ignore'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration_gen) by extension 'ignore_ament_install'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration_gen) by extensions ['colcon_pkg']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration_gen) by extension 'colcon_pkg'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration_gen) by extensions ['colcon_meta']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration_gen) by extension 'colcon_meta'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration_gen) by extensions ['ros']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration_gen) by extension 'ros'
+[0.857s] DEBUG:colcon.colcon_core.package_identification:Package 'src/calibration_gen' with type 'ros.ament_cmake' and name 'calibration_gen'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extensions ['ignore', 'ignore_ament_install']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extension 'ignore'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extension 'ignore_ament_install'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extensions ['colcon_pkg']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extension 'colcon_pkg'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extensions ['colcon_meta']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extension 'colcon_meta'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extensions ['ros']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_description) by extension 'ros'
+[0.859s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_description' with type 'ros.ament_cmake' and name 'example_description'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bridge) by extension 'ignore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bridge) by extension 'ignore_ament_install'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bridge) by extensions ['colcon_pkg']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bridge) by extension 'colcon_pkg'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bridge) by extensions ['colcon_meta']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bridge) by extension 'colcon_meta'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bridge) by extensions ['ros']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bridge) by extension 'ros'
+[0.861s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bridge' with type 'ros.ament_cmake' and name 'robot_bridge'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.862s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.904s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.910s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ubuntu/f1tenth_ws/install
+[0.913s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 358 installed packages in /opt/ros/humble
+[0.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.008s] Level 5:colcon.colcon_core.verb:set package 'ackerman_odometry' build argument 'cmake_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'ackerman_odometry' build argument 'cmake_target' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'ackerman_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'ackerman_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'ackerman_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'ackerman_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'ackerman_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'ackerman_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'ackerman_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.009s] DEBUG:colcon.colcon_core.verb:Building package 'ackerman_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/f1tenth_ws/build/ackerman_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/f1tenth_ws/install/ackerman_odometry', 'merge_install': False, 'path': '/home/ubuntu/f1tenth_ws/src/ackerman_odometry', 'symlink_install': False, 'test_result_base': None}
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'calibration_gen' build argument 'cmake_args' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'calibration_gen' build argument 'cmake_target' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'calibration_gen' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'calibration_gen' build argument 'cmake_clean_cache' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'calibration_gen' build argument 'cmake_clean_first' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'calibration_gen' build argument 'cmake_force_configure' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'calibration_gen' build argument 'ament_cmake_args' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'calibration_gen' build argument 'catkin_cmake_args' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'calibration_gen' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.010s] DEBUG:colcon.colcon_core.verb:Building package 'calibration_gen' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/f1tenth_ws/build/calibration_gen', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/f1tenth_ws/install/calibration_gen', 'merge_install': False, 'path': '/home/ubuntu/f1tenth_ws/src/calibration_gen', 'symlink_install': False, 'test_result_base': None}
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'cmake_args' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'cmake_target' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.010s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'example_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.011s] DEBUG:colcon.colcon_core.verb:Building package 'example_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/f1tenth_ws/build/example_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/f1tenth_ws/install/example_description', 'merge_install': False, 'path': '/home/ubuntu/f1tenth_ws/src/example_description', 'symlink_install': False, 'test_result_base': None}
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'robot_bridge' build argument 'cmake_args' from command line to 'None'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'robot_bridge' build argument 'cmake_target' from command line to 'None'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'robot_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'robot_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'robot_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'robot_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'robot_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'robot_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'robot_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.011s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/f1tenth_ws/build/robot_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/f1tenth_ws/install/robot_bridge', 'merge_install': False, 'path': '/home/ubuntu/f1tenth_ws/src/robot_bridge', 'symlink_install': False, 'test_result_base': None}
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.012s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/ubuntu/f1tenth_ws/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[1.012s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.013s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/f1tenth_ws/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/ubuntu/f1tenth_ws/src/YDLidar-SDK', 'symlink_install': False, 'test_result_base': None}
+[1.013s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.015s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/f1tenth_ws/src/ackerman_odometry' with build type 'ament_cmake'
+[1.015s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/f1tenth_ws/src/ackerman_odometry'
+[1.027s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.028s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.036s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/f1tenth_ws/src/calibration_gen' with build type 'ament_cmake'
+[1.036s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/f1tenth_ws/src/calibration_gen'
+[1.037s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.037s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.042s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/f1tenth_ws/src/example_description' with build type 'ament_cmake'
+[1.042s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/f1tenth_ws/src/example_description'
+[1.043s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.043s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.053s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/f1tenth_ws/src/robot_bridge' with build type 'ament_cmake'
+[1.054s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/f1tenth_ws/src/robot_bridge'
+[1.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ackerman_odometry -- -j4 -l4
+[1.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/f1tenth_ws/build/calibration_gen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/calibration_gen -- -j4 -l4
+[1.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/f1tenth_ws/build/example_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/example_description -- -j4 -l4
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/f1tenth_ws/build/robot_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/robot_bridge -- -j4 -l4
+[2.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/f1tenth_ws/build/example_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/example_description -- -j4 -l4
+[2.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/f1tenth_ws/build/calibration_gen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/calibration_gen -- -j4 -l4
+[2.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/f1tenth_ws/build/example_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/example_description
+[2.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/f1tenth_ws/build/calibration_gen': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/calibration_gen
+[2.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ackerman_odometry -- -j4 -l4
+[2.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_description)
+[2.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/f1tenth_ws/build/example_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/example_description
+[2.729s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/example_description' for CMake module files
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/example_description' for CMake config files
+[2.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_description', 'cmake_prefix_path')
+[2.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/hook/cmake_prefix_path.ps1'
+[2.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/hook/cmake_prefix_path.dsv'
+[2.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/hook/cmake_prefix_path.sh'
+[2.737s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/example_description/bin'
+[2.737s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/example_description/lib/pkgconfig/example_description.pc'
+[2.737s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/example_description/lib/python3.10/site-packages'
+[2.738s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/example_description/bin'
+[2.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.ps1'
+[2.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.dsv'
+[2.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.sh'
+[2.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.bash'
+[2.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.zsh'
+[2.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/f1tenth_ws/install/example_description/share/colcon-core/packages/example_description)
+[2.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ackerman_odometry
+[2.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(calibration_gen)
+[2.771s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen' for CMake module files
+[2.773s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen' for CMake config files
+[2.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/f1tenth_ws/build/calibration_gen' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/calibration_gen
+[2.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('calibration_gen', 'cmake_prefix_path')
+[2.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/hook/cmake_prefix_path.ps1'
+[2.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/hook/cmake_prefix_path.dsv'
+[2.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/hook/cmake_prefix_path.sh'
+[2.783s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen/lib'
+[2.784s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen/bin'
+[2.784s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen/lib/pkgconfig/calibration_gen.pc'
+[2.785s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen/lib/python3.10/site-packages'
+[2.785s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen/bin'
+[2.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/package.ps1'
+[2.787s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/package.dsv'
+[2.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/package.sh'
+[2.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/package.bash'
+[2.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/package.zsh'
+[2.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/f1tenth_ws/install/calibration_gen/share/colcon-core/packages/calibration_gen)
+[2.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_description)
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/example_description' for CMake module files
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/example_description' for CMake config files
+[2.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_description', 'cmake_prefix_path')
+[2.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/hook/cmake_prefix_path.ps1'
+[2.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/hook/cmake_prefix_path.dsv'
+[2.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/hook/cmake_prefix_path.sh'
+[2.823s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/example_description/bin'
+[2.823s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/example_description/lib/pkgconfig/example_description.pc'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/example_description/lib/python3.10/site-packages'
+[2.826s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/example_description/bin'
+[2.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.ps1'
+[2.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.dsv'
+[2.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.sh'
+[2.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.bash'
+[2.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/example_description/share/example_description/package.zsh'
+[2.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/f1tenth_ws/install/example_description/share/colcon-core/packages/example_description)
+[2.838s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/f1tenth_ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[2.838s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/f1tenth_ws/src/ydlidar_ros2_driver'
+[2.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(calibration_gen)
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen' for CMake module files
+[2.860s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen' for CMake config files
+[2.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('calibration_gen', 'cmake_prefix_path')
+[2.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/hook/cmake_prefix_path.ps1'
+[2.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/hook/cmake_prefix_path.dsv'
+[2.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/hook/cmake_prefix_path.sh'
+[2.866s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen/lib'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen/bin'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen/lib/pkgconfig/calibration_gen.pc'
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen/lib/python3.10/site-packages'
+[2.868s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/calibration_gen/bin'
+[2.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/package.ps1'
+[2.873s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/package.dsv'
+[2.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/package.sh'
+[2.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/package.bash'
+[2.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/calibration_gen/share/calibration_gen/package.zsh'
+[2.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/f1tenth_ws/install/calibration_gen/share/colcon-core/packages/calibration_gen)
+[2.885s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/f1tenth_ws/src/YDLidar-SDK'
+[2.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[2.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackerman_odometry)
+[2.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/f1tenth_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ydlidar_sdk -- -j4 -l4
+[2.996s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry' for CMake module files
+[3.022s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry' for CMake config files
+[3.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackerman_odometry', 'cmake_prefix_path')
+[3.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/hook/cmake_prefix_path.ps1'
+[3.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ackerman_odometry
+[3.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/hook/cmake_prefix_path.dsv'
+[3.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/hook/cmake_prefix_path.sh'
+[3.064s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/lib'
+[3.067s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/bin'
+[3.073s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/lib/pkgconfig/ackerman_odometry.pc'
+[3.078s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/lib/python3.10/site-packages'
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/bin'
+[3.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.ps1'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.dsv'
+[3.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.sh'
+[3.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.bash'
+[3.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.zsh'
+[3.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/colcon-core/packages/ackerman_odometry)
+[3.233s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackerman_odometry)
+[3.234s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry' for CMake module files
+[3.238s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry' for CMake config files
+[3.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackerman_odometry', 'cmake_prefix_path')
+[3.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/hook/cmake_prefix_path.ps1'
+[3.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/hook/cmake_prefix_path.dsv'
+[3.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/hook/cmake_prefix_path.sh'
+[3.275s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/lib'
+[3.280s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/bin'
+[3.283s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/lib/pkgconfig/ackerman_odometry.pc'
+[3.287s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/lib/python3.10/site-packages'
+[3.293s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/bin'
+[3.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.ps1'
+[3.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.dsv'
+[3.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.sh'
+[3.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.bash'
+[3.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.zsh'
+[3.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/colcon-core/packages/ackerman_odometry)
+[3.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[3.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver
+[3.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[3.643s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver' for CMake module files
+[3.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ydlidar_ros2_driver
+[3.644s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver' for CMake config files
+[3.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[3.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[3.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[3.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[3.651s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/lib'
+[3.651s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/bin'
+[3.651s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[3.651s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[3.652s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/bin'
+[3.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[3.654s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[3.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[3.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[3.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[3.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[3.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/f1tenth_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ydlidar_sdk -- -j4 -l4
+[3.720s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[3.721s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver' for CMake module files
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver' for CMake config files
+[3.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[3.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[3.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[3.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/lib'
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/bin'
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[3.730s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/bin'
+[3.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[3.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[3.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[3.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[3.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[3.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/f1tenth_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[3.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/f1tenth_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ydlidar_sdk
+[3.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_sdk)
+[3.862s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk' for CMake module files
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk' for CMake config files
+[3.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'cmake_prefix_path')
+[3.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.ps1'
+[3.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.dsv'
+[3.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.sh'
+[3.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/f1tenth_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ydlidar_sdk
+[3.881s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/lib'
+[3.881s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin'
+[3.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'path')
+[3.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.ps1'
+[3.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.dsv'
+[3.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.sh'
+[3.887s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/lib/pkgconfig/ydlidar_sdk.pc'
+[3.887s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/lib/python3.10/site-packages'
+[3.888s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/bin'
+[3.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'pythonscriptspath')
+[3.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.ps1'
+[3.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.dsv'
+[3.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.sh'
+[3.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.ps1'
+[3.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.dsv'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.sh'
+[3.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.bash'
+[3.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.zsh'
+[3.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/f1tenth_ws/install/ydlidar_sdk/share/colcon-core/packages/ydlidar_sdk)
+[5.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/f1tenth_ws/build/robot_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/robot_bridge -- -j4 -l4
+[5.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/f1tenth_ws/build/robot_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/robot_bridge
+[5.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bridge)
+[5.229s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge' for CMake module files
+[5.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/f1tenth_ws/build/robot_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/robot_bridge
+[5.233s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge' for CMake config files
+[5.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bridge', 'cmake_prefix_path')
+[5.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/hook/cmake_prefix_path.ps1'
+[5.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/hook/cmake_prefix_path.dsv'
+[5.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/hook/cmake_prefix_path.sh'
+[5.245s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge/lib'
+[5.245s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge/bin'
+[5.245s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge/lib/pkgconfig/robot_bridge.pc'
+[5.246s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge/lib/python3.10/site-packages'
+[5.246s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge/bin'
+[5.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.ps1'
+[5.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.dsv'
+[5.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.sh'
+[5.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.bash'
+[5.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.zsh'
+[5.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/f1tenth_ws/install/robot_bridge/share/colcon-core/packages/robot_bridge)
+[5.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bridge)
+[5.295s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge' for CMake module files
+[5.297s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge' for CMake config files
+[5.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bridge', 'cmake_prefix_path')
+[5.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/hook/cmake_prefix_path.ps1'
+[5.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/hook/cmake_prefix_path.dsv'
+[5.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/hook/cmake_prefix_path.sh'
+[5.302s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge/lib'
+[5.302s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge/bin'
+[5.303s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge/lib/pkgconfig/robot_bridge.pc'
+[5.303s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge/lib/python3.10/site-packages'
+[5.303s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/f1tenth_ws/install/robot_bridge/bin'
+[5.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.ps1'
+[5.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.dsv'
+[5.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.sh'
+[5.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.bash'
+[5.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.zsh'
+[5.315s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/f1tenth_ws/install/robot_bridge/share/colcon-core/packages/robot_bridge)
+[5.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.316s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.340s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.341s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.341s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.566s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/f1tenth_ws/install/local_setup.ps1'
+[5.569s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/f1tenth_ws/install/_local_setup_util_ps1.py'
+[5.572s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/f1tenth_ws/install/setup.ps1'
+[5.574s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/f1tenth_ws/install/local_setup.sh'
+[5.576s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/f1tenth_ws/install/_local_setup_util_sh.py'
+[5.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/f1tenth_ws/install/setup.sh'
+[5.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/f1tenth_ws/install/local_setup.bash'
+[5.581s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/f1tenth_ws/install/setup.bash'
+[5.583s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/f1tenth_ws/install/local_setup.zsh'
+[5.585s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/f1tenth_ws/install/setup.zsh'

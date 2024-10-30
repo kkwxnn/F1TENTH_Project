@@ -36,6 +36,8 @@ install(PROGRAMS
   scripts/robot_navigator.py
   scripts/save_odom_rosbag.py
   scripts/joy_control.py
+  scripts/t265_odom.py
+  scripts/robot_class.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
