@@ -1,0 +1,44 @@
+[0.140s] Invoking command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ackerman_odometry -- -j4 -l4
+[0.466s] [  0%] Built target ament_cmake_python_copy_ackerman_odometry
+[0.634s] [100%] Built target cpp_node_test
+[2.544s] running egg_info
+[2.544s] writing ackerman_odometry.egg-info/PKG-INFO
+[2.544s] writing dependency_links to ackerman_odometry.egg-info/dependency_links.txt
+[2.544s] writing top-level names to ackerman_odometry.egg-info/top_level.txt
+[2.560s] reading manifest file 'ackerman_odometry.egg-info/SOURCES.txt'
+[2.560s] writing manifest file 'ackerman_odometry.egg-info/SOURCES.txt'
+[2.821s] [100%] Built target ament_cmake_python_build_ackerman_odometry_egg
+[2.862s] Invoked command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/f1tenth_ws/build/ackerman_odometry -- -j4 -l4
+[2.972s] Invoking command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ackerman_odometry
+[3.060s] -- Install configuration: ""
+[3.060s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/environment/pythonpath.sh
+[3.060s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/environment/pythonpath.dsv
+[3.061s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry-0.0.0-py3.10.egg-info
+[3.061s] -- Installing: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry-0.0.0-py3.10.egg-info/PKG-INFO
+[3.061s] -- Installing: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.061s] -- Installing: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry-0.0.0-py3.10.egg-info/top_level.txt
+[3.076s] -- Installing: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.080s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry
+[3.080s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry/dummy_module.py
+[3.083s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry/__init__.py
+[3.385s] Listing '/home/ubuntu/f1tenth_ws/install/ackerman_odometry/local/lib/python3.10/dist-packages/ackerman_odometry'...
+[3.456s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/lib/ackerman_odometry/dummy_script.py
+[3.459s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/lib/ackerman_odometry/odometry_calculation.py
+[3.460s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/lib/ackerman_odometry/cpp_node_test
+[3.460s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry
+[3.460s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ament_index/resource_index/package_run_dependencies/ackerman_odometry
+[3.462s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ament_index/resource_index/parent_prefix_path/ackerman_odometry
+[3.462s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/environment/ament_prefix_path.sh
+[3.463s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/environment/ament_prefix_path.dsv
+[3.473s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/environment/path.sh
+[3.480s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/environment/path.dsv
+[3.480s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/local_setup.bash
+[3.500s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/local_setup.sh
+[3.511s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/local_setup.zsh
+[3.511s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/local_setup.dsv
+[3.511s] -- Installing: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.dsv
+[3.511s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ament_index/resource_index/packages/ackerman_odometry
+[3.514s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/cmake/ackerman_odometryConfig.cmake
+[3.525s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/cmake/ackerman_odometryConfig-version.cmake
+[3.525s] -- Up-to-date: /home/ubuntu/f1tenth_ws/install/ackerman_odometry/share/ackerman_odometry/package.xml
+[3.571s] Invoked command in '/home/ubuntu/f1tenth_ws/build/ackerman_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/f1tenth_ws/build/ackerman_odometry

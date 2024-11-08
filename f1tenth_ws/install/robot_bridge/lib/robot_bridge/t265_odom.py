@@ -21,7 +21,7 @@ class T265Pub(Node):
         self.create_subscription(Empty, "calibrate_odom", self.cal_callback, 10)
         self.odom_pub = self.create_publisher(Odometry, 't265_odom', 10)
         self.robot = robot_class.robot_class()
-        self.T_t265_base = self.robot.create_transformation( -0.30, 0.0, 0.0 )
+        self.T_t265_base = self.robot.create_transformation( 0.0, 0.0, 0.0 )
         self.data = []
         self.max_data = 2000
         self.i = 0

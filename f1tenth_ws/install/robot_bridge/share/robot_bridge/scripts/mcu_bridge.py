@@ -126,8 +126,7 @@ class MCUBridgeNode(Node):
         self.motor_position_msg = msg.data[0]
 
     def opticalOdom_callback(self, msg):
-        #quaternion = tf_transformations.quaternion_from_euler(0.0, 0.0, msg.data[2])
-        #quaternion = tf_transformations.quaternion_from_euler(0.0, 0.0, self.relative_yaw)
+        quaternion = tf_transformations.quaternion_from_euler(0.0, 0.0, self.relative_yaw)
 
         optical_pose_msg = PoseWithCovarianceStamped()
         optical_pose_msg.header.frame_id = "optical_odom"
@@ -135,10 +134,14 @@ class MCUBridgeNode(Node):
         optical_pose_msg.pose.pose.position.x = msg.data[0] * (-1)
         optical_pose_msg.pose.pose.position.y = msg.data[1] * (-1)
         optical_pose_msg.pose.pose.position.z = 0.0
-        optical_pose_msg.pose.pose.orientation.x = 0.0 #quaternion[0] #self.imu_orientation_ls[0]
-        optical_pose_msg.pose.pose.orientation.y = 0.0 #quaternion[1] #self.imu_orientation_ls[1]
-        optical_pose_msg.pose.pose.orientation.z = 0.0 #quaternion[2] #self.imu_orientation_ls[2]
-        optical_pose_msg.pose.pose.orientation.w = 1.0 #quaternion[3] #self.imu_orientation_ls[3]
+        # optical_pose_msg.pose.pose.orientation.x = 0.0 #quaternion[0] #self.imu_orientation_ls[0]
+        # optical_pose_msg.pose.pose.orientation.y = 0.0 #quaternion[1] #self.imu_orientation_ls[1]
+        # optical_pose_msg.pose.pose.orientation.z = 0.0 #quaternion[2] #self.imu_orientation_ls[2]
+        # optical_pose_msg.pose.pose.orientation.w = 1.0 #quaternion[3] #self.imu_orientation_ls[3]
+        optical_pose_msg.pose.pose.orientation.x = quaternion[0]
+        optical_pose_msg.pose.pose.orientation.y = quaternion[1]
+        optical_pose_msg.pose.pose.orientation.z = quaternion[2] 
+        optical_pose_msg.pose.pose.orientation.w = quaternion[3] 
 
         optical_pose_msg.pose.covariance = self.pose_cov.flatten()
 

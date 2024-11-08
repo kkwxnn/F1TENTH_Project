@@ -1,0 +1,122 @@
+[  0%] Built target ament_cmake_python_copy_robot_bridge
+[100%] Built target cpp_node_test
+running egg_info
+writing robot_bridge.egg-info/PKG-INFO
+writing dependency_links to robot_bridge.egg-info/dependency_links.txt
+writing top-level names to robot_bridge.egg-info/top_level.txt
+reading manifest file 'robot_bridge.egg-info/SOURCES.txt'
+writing manifest file 'robot_bridge.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_robot_bridge_egg
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/environment/pythonpath.sh
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/environment/pythonpath.dsv
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge-0.0.0-py3.10.egg-info
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/dummy_module.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/mobile_cov_estimator.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/Command.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/mobile_kinematic.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge/__init__.py
+Listing '/home/ubuntu/f1tenth_ws/install/robot_bridge/local/lib/python3.10/dist-packages/robot_bridge'...
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/cmd_odom.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/RobotCommand.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/mcu_bridge.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/ackerman_yaw_rate_odom.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/save_csv.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/via_points_generator.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/robot_navigator.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/save_odom_rosbag.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/joy_control.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/t265_odom.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/robot_class.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/lib/robot_bridge/cpp_node_test
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/robot_bridge.launch.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/rosbag.launch.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/vmegarover_save_map.launch.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/carver_mapping.launch.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/launch/robot_description.launch.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/save_odom_rosbag.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/t265_odom.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/joy_control.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/ackerman_yaw_rate_odom.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/RobotCommand.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/cmd_odom.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/__pycache__
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/__pycache__/robot_navigator.cpython-310.pyc
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/__pycache__/robot_class.cpython-310.pyc
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/robot_navigator.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/mcu_bridge.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/robot_class.py
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/save_csv.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/via_points_generator.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/scripts/map_to_base_link_transform.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor4.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_city2.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor4.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_city2.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_2_keepout.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_2.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor2.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor3.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor1_filtered_2.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv1.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/vmegarover_samplemap1.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_city.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_keepout.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/FIBO_floor5_AMCL.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_keepout.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/vmegarover_samplemap1.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/FIBO_floor5_AMCL_2.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_2_keepout.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor1_filtered.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor1.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor1_filtered.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_city.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv1.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/FIBO_floor5_AMCL.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/FIBO_floor5_AMCL_2.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_2.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor2.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor3.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_3.pgm
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/gensurv_outdoor1.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/maps/real_city_3.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/config
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/config/mapper_params_online_sync.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/config/navigation_param.yaml
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/rviz
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/rviz/mapping.rviz
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/rviz/test.rviz
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/rviz/navigation.rviz
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/robot_bridge
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/robot_bridge/dummy_module.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/robot_bridge/mobile_cov_estimator.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/robot_bridge/Command.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/robot_bridge/mobile_kinematic.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/robot_bridge/__init__.py
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/ament_index/resource_index/package_run_dependencies/robot_bridge
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/ament_index/resource_index/parent_prefix_path/robot_bridge
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/environment/path.sh
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/environment/path.dsv
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/local_setup.bash
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/local_setup.sh
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/local_setup.zsh
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/local_setup.dsv
+-- Installing: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.dsv
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/ament_index/resource_index/packages/robot_bridge
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/cmake/robot_bridgeConfig.cmake
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/cmake/robot_bridgeConfig-version.cmake
+-- Up-to-date: /home/ubuntu/f1tenth_ws/install/robot_bridge/share/robot_bridge/package.xml

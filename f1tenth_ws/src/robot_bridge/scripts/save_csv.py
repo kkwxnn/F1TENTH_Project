@@ -52,7 +52,7 @@ class CSVWritterNode(Node):
         #else:
         #    print("Wheel Vel: ", self.cmd_vx, self.cmd_w)
             # Check if all data is available
-            if self.odom_x is not None and self.odom_y is not None  and self.cmd_vx is not None and self.cmd_w is not None and self.imu_yaw is not None:
+            if self.odom_x is not None and self.odom_y is not None and self.cmd_vx is not None and self.cmd_w is not None and self.imu_yaw is not None:
                 print("Record: ", self.odom_x, self.odom_y, self.linear_speed, self.cmd_vx, self.cmd_w, self.imu_yaw)
                 # Write data to CSV
                 with open(self.path, 'a') as csvfile:  # Use 'a' mode to append
